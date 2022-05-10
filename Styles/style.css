@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Top Image */
+.container .top img {
+	height: 650px;
+	width: 100%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+/* Sunnyside Logo */
+.container .top .navbar .logo {
+	position: absolute;
+	top: 2rem;
+	left: 2rem;
+}
+.container .top .navbar .logo img {
+	height: 100%;
+	width: 100%;
+}
+
+/* Navbar Links */
+.container .top .navbar .links .horizontal-list {
+	position: absolute;
+	top: 2rem;
+	right: 2rem;
+	list-style: none;
+}
+.container .top .navbar .links .horizontal-list li {
+	display: inline;
+	padding: 0px 20px;
+	font-family: 'Barlow', sans-serif;
+	font-size: 18px;
+	color: hsl(0, 0%, 100%);
+}
+.container .top .navbar .links .horizontal-list li:nth-child(4) {
+	height: 50px;
+	width: 100px;
+	padding: 10px 20px;
+	border-radius: 20px;
+	background-color: hsl(0, 0%, 100%);
+	color: black;
+}
+.container .top .navbar .links .horizontal-list li:hover {
+	color: hsl(0, 0%, 100%);
+	cursor: pointer;
+	height: 50px;
+	width: 100px;
+	padding: 10px 20px;
+	border-radius: 20px;
+	/* border: 0px solid hsl(0, 0%, 100%); */
+	background-color: rgba(255, 255, 255, 0.23);
+	/* transition: background-color 2s ease-in-out; */
+}
+
+/* 'We are Creative' Header */
+.container .top .Header p {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.container .top .Header {
+	font-family: 'Fraunces', sans-serif;
+	font-weight: 900;
+	font-size: 48px;
+	color: hsl(0, 0%, 100%);
+	letter-spacing: 10px;
+}
+
+/* Down white arrow */
+.container .top .down_arrow {
+	position: absolute;
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.container .top .down_arrow img {
+	height: 100%;
+	width: 100%;
+}
+
+/* Part 1 */
+.container .part1 {
+	display: flex;
+}
+.container .part1 .part1-text {
+	flex: 0.5;
+}
+.container .part1 .part1-text h1 {
+	font-family: 'Fraunces', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	font-weight: 900;
+	color: hsl(212, 27%, 19%);
+	padding-left: 90px;
+	padding-right: 250px;
+	padding-top: 150px;
+}
+.container .part1 .part1-text p {
+	font-family: 'Barlow', sans-serif;
+	font-size: 18px;
+	color: hsl(210, 4%, 67%);
+	padding: 0 90px;
+	padding-top: 30px;
+}
+.container .part1 .part1-img {
+	flex: 0.5;
+}
+.container .part1 .part1-img img {
+	height: 90%;
+	width: 100%;
+}
+.container .part1 .part1-img {
+	display: flex;
+}
