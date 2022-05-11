@@ -92,6 +92,7 @@
 }
 .container .part1 .part1-text {
 	flex: 0.5;
+	background-color: rgb(255, 245, 238);
 }
 .container .part1 .part1-text h1 {
 	font-family: 'Fraunces', sans-serif;
@@ -99,24 +100,54 @@
 	font-size: 36px;
 	font-weight: 900;
 	color: hsl(212, 27%, 19%);
-	padding-left: 90px;
+	padding-left: 110px;
 	padding-right: 250px;
 	padding-top: 150px;
 }
 .container .part1 .part1-text p {
 	font-family: 'Barlow', sans-serif;
 	font-size: 18px;
+	font-weight: 600;
 	color: hsl(210, 4%, 67%);
-	padding: 0 90px;
+	padding: 0 110px;
 	padding-top: 30px;
+	padding-bottom: 40px;
+	line-height: 30px;
+}
+.container .part1 .part1-text a {
+	text-decoration: none;
+	font-family: 'Barlow', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: hsl(212, 27%, 19%);
+	margin: 0px 110px;
 }
 .container .part1 .part1-img {
 	flex: 0.5;
 }
 .container .part1 .part1-img img {
-	height: 90%;
+	height: 100%;
 	width: 100%;
 }
 .container .part1 .part1-img {
 	display: flex;
+}
+
+/* part 3 */
+.container .part3 {
+	display: flex;
+}
+.container .part3 .part3-img-1 {
+	flex: 0.5;
+}
+.container .part3 .part3-img-1 img {
+	height: 100%;
+	width: 100%;
+}
+.container .part3 .part3-img-2 {
+	flex: 0.5;
+}
+.container .part3 .part3-img-2 img {
+	height: 100%;
+	width: 100%;
 }
